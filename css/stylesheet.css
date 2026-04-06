@@ -1,0 +1,19 @@
+.logo {
+    width: 150px;
+}
+
+.tlr-nav {
+    background-color: black;
+    --bs-success: #7b1515;
+    --bs-success-rgb: 123, 21, 21;
+    --bs-primary: #2f6fed;
+    --bs-primary-rgb: 47, 111, 237;
+}
+
+body {
+    background-color: #090909;
+}
+
+form {
+    --bs-success: #7c8719;
+}
