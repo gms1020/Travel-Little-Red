@@ -1,19 +1,39 @@
+:root {
+    --bs-primary: #7b1515;
+}
+
 .logo {
     width: 150px;
 }
 
 .tlr-nav {
     background-color: black;
-    --bs-success: #7b1515;
-    --bs-success-rgb: 123, 21, 21;
-    --bs-primary: #2f6fed;
-    --bs-primary-rgb: 47, 111, 237;
+}
+
+.bg-item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: absolute;
+}
+
+/* <weight>: Use a value from 100 to 900 */
+
+.archivo-main {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    z-index: -1;
 }
 
 body {
     background-color: #090909;
-}
-
-form {
-    --bs-success: #7c8719;
 }
