@@ -19,7 +19,6 @@
 }
 
 /* <weight>: Use a value from 100 to 900 */
-
 .archivo-main {
   font-family: "Archivo", sans-serif;
   font-optical-sizing: auto;
@@ -28,12 +27,20 @@
   font-variation-settings: "wdth" 100;
 }
 
-.title {
+.mars-title {
     position: relative;
-    text-align: center;
     z-index: -1;
+}
+
+.title {
+    padding-inline: 5vw;
+    color: white;
 }
 
 body {
     background-color: #090909;
+}
+
+h1 {
+    font-size: 13vw;
 }
