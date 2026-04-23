@@ -8,6 +8,7 @@
 
 .tlr-nav {
     background-color: black;
+    border-bottom: 1px solid white;
 }
 
 .bg-item {
@@ -78,6 +79,13 @@
     justify-content: flex-end;
 }
 
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+}
+
 .link {
     color: white;
     font-size: 1.5em;
@@ -87,7 +95,7 @@
 }
 
 body {
-    background-color: #090909;
+    background-color: black;
 }
 
 h1 {
