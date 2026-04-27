@@ -29,6 +29,7 @@
   font-weight: 900;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  color: white;
 }
 
 .inter-main {
@@ -36,6 +37,7 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  color: white;
 }
 
 .inter-italic {
@@ -54,6 +56,10 @@
 .title {
     padding-inline: 5vw;
     color: white;
+}
+
+.page-title {
+    padding-top: 410px;
 }
 
 .callout {
@@ -83,7 +89,7 @@
 .grid-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     gap: 70px;
     padding: 5vw;
 }
