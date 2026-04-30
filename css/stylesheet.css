@@ -137,19 +137,30 @@ h1 {
     font-size: 13vw;
 }
 
+/*
+==============================
+============Footer============
+==============================
+*/
+
+.content {
+  height: 70vh;
+}
+
 .footer-32892 {
-  background-color: #202126;
+  background-color: black;
   padding: 7rem 0;
   color: #888;
   font-size: 16px; }
   .footer-32892, .footer-32892 h3 {
-    font-family: "Poppins", sans-serif; }
+    font-family: "Archivo", sans-serif; }
   .footer-32892 h3 {
     font-size: 20px;
     color: #fff;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-weight: 900; }
   .footer-32892 p {
-    font-family: "Source Serif Pro", serif; }
+    font-family: "Inter", sans-serif; }
   .footer-32892 .row.gallery {
     margin-right: -5px;
     margin-left: -5px; }
@@ -173,7 +184,7 @@ h1 {
       color: #fff; }
     .footer-32892 .quick-info li .icon {
       font-size: 20px;
-      color: #f88020; }
+      color: #7b1515; }
   .footer-32892 .subscribe {
     position: relative; }
     .footer-32892 .subscribe .form-control {
@@ -199,7 +210,7 @@ h1 {
         color: #ccc;
         font-size: 14px; }
     .footer-32892 .subscribe .btn-submit {
-      background: #f88020;
+      background: #7b1515;
       height: 47px;
       border-radius: 30px;
       padding-left: 30px;
@@ -215,7 +226,7 @@ h1 {
     margin-bottom: 20px;
     font-size: 15px;
     font-style: italic;
-    font-family: "Source Serif Pro", serif; }
+    font-family: "Inter", sans-serif; }
     .footer-32892 .tweets li span {
       color: #fff; }
   .footer-32892 .footer-menu-wrap {
@@ -241,14 +252,9 @@ h1 {
         padding-left: 0; }
   .footer-32892 .site-logo {
     color: #fff;
+    font-size: 20px;
+    text-align: left; }
+
+.icon {
+    background-image: src="img/explore-activities.png";
 }
-
-a {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease; }
-  a, a:hover {
-    text-decoration: none !important; }
-
-.content {
-  height: 70vh; }
